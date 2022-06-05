@@ -1,0 +1,40 @@
+            body {
+                background-color: rgb(87, 87, 192);
+            }
+            
+            .pic {
+                height: 100%;
+                width: auto;
+            }
+            
+            .item1 {
+                background-color: blue;
+            }
+            
+            .table1 {
+                list-style: circle;
+                border-style: dotted;
+                border-color: black;
+            }
+            
+            #chCol:hover {
+                color: rgb(248, 6, 6);
+            }
+            
+            .ex1 {
+                font-family: 'ZenKakuGothicAntique-Black';
+            }
+            
+            .ex2 {
+                font-family: 'ZenKakuGothicAntique-Regular';
+            }
+            
+            @font-face {
+                font-family: 'ZenKakuGothicAntique-Black';
+                src: url("../fonts/ZenKakuGothicAntique-Black.ttf");
+            }
+            
+            @font-face {
+                font-family: 'ZenKakuGothicAntique-Regular';
+                src: url("../fonts/ZenKakuGothicAntique-Regular.ttf");
+            }
